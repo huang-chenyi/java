@@ -34,7 +34,9 @@
 
 ## 理解
 
+```
 Animal a = new Dog();
+```
 
 现在用a去调用变量和方法
 
@@ -52,9 +54,13 @@ Animal a = new Dog();
 
 如果必须调用子类的独有方法，可以使用强制类型转换
 
-如：Fu f = new Zi();
+如：
+
+```
+Fu f = new Zi();
 
 Zi z = (Zi) f;
+```
 
 该代码即将f强制转换为Zi类后赋值给z，然后就可以使用z调用子类之中的独有方法
 
@@ -62,20 +68,24 @@ Zi z = (Zi) f;
 
 因此，在转换时还可以做一个**安全判断措施**
 
+```
 if(f instanceof Zi){
-Zi z = (Zi) f; 
+    Zi z = (Zi) f; 
 }
+```
 
 **java14后新增功能**
+
+```
+if(f instanceof Zi z){
+}
+```
 
 作用是先判断，再强转，
 
 如果f是Zi类型，则将f转化为Zi类并赋给z，即与上方代码作用一致
 
 如果f不是Zi类型 则不做转换，返回false
-
-if(f instanceof Zi z){
-}
 
 
 
