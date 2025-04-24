@@ -4,7 +4,11 @@
 
 ## 使用关键字extends进行继承
 
-例如:public class Student extends Person(){}
+例如:
+
+```
+public class Student extends Person(){}
+```
 
 Student为子类  而Person为父类
 
