@@ -1,5 +1,5 @@
 package School.Experiment5.Test1;
-
+//Test.java
 public class Test {
     public static void main(String[] args) {
         ChinaPeople CP = new ChinaPeople();

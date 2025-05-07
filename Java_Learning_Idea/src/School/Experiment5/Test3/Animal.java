@@ -1,20 +1,19 @@
 package School.Experiment5.Test3;
-
+//Animal.java
 public abstract class Animal implements Talent {
-    private String id;
+    private StringBuilder id;
     private String type;
-
 
     public Animal() {
     }
-    public Animal(String id, String type) {
+    public Animal(StringBuilder id, String type) {
         this.id = id;
         this.type = type;
     }
-    public String getId() {
+    public StringBuilder getId() {
         return id;
     }
-    public void setId(String id) {
+    public void setId(StringBuilder id) {
         this.id = id;
     }
     public String getType() {
@@ -24,10 +23,11 @@ public abstract class Animal implements Talent {
         this.type = type;
     }
 
-
+    @Override
     public abstract void showTalent();
 
     public void showMessage() {
-        System.out.println(getId() + " " + getType());
+        System.out.println("编号：" + getId());
+        System.out.println("类别：" + getType());
     }
 }

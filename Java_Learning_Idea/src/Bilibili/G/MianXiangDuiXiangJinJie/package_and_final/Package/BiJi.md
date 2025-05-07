@@ -29,7 +29,7 @@
 5. 使用其他类时，需要使用全类名。
 
 ```
-public class Test {
+public class Test.Test {
     public static void main(String[] args) {
         com.itheima.domain.Student s = new com.itheima.domain.Student();
     }
@@ -40,7 +40,7 @@ public class Test {
 
 ```
 import com.itheima.domain.Student;  <--导包
-public class Test {
+public class Test.Test {
     public static void main(String[] args) {
         Student s = new Student();
     }

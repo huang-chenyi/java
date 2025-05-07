@@ -67,7 +67,7 @@ public class Test2 {
 
 //import java.util.Scanner;
 //
-//public class Test2 {
+//public class Test.Test.Test2 {
 //    public static void main([] args) {
 //        Scanner input = new Scanner(System.in);
 //        System.out.print("Enter the number of rows in the square matrix: ");

@@ -1,5 +1,5 @@
 package School.Experiment5.Test1;
-
+//AmericanPeople.java
 public class AmericanPeople extends People{
     @Override
     public void speakHello() {
@@ -19,5 +19,4 @@ public class AmericanPeople extends People{
     public void americanBoxing(){
         System.out.println("直拳、钩拳、组合拳");
     }
-
 }

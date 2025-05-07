@@ -1,5 +1,5 @@
 package School.Experiment5.Test1;
-
+//ChinaPeople.java
 public class ChinaPeople extends People{
 
     @Override
@@ -20,5 +20,4 @@ public class ChinaPeople extends People{
     public void chinaGongfu(){
         System.out.println("坐如钟、站如松、睡如弓");
     }
-
 }

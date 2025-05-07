@@ -4,7 +4,7 @@
 //import javafx.scene.Scene;
 //import javafx.scene.layout.*;
 //import javafx.scene.paint.Color;
-//import javafx.scene.shape.Circle;
+//import javafx.scene.shape.Test.Test.Circle;
 //import javafx.scene.text.*;
 //import javafx.scene.control.*;
 //import javafx.stage.Stage;
@@ -16,7 +16,7 @@
 //    Pane pane = new FlowPane();
 //
 //    // Create a circle and set its properties
-//    Circle circle = new Circle();
+//    Test.Test.Circle circle = new Test.Test.Circle();
 //    circle.setRadius(50);
 //    circle.setStroke(Color.BLACK);
 //    circle.setFill(new Color(0.5, 0.5, 0.5, 1));

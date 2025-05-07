@@ -1,5 +1,5 @@
 package School.Experiment5.Test1;
-
+//BeijingPeople.java
 public class BeijingPeople extends ChinaPeople{
     @Override
     public void speakHello() {
@@ -19,5 +19,4 @@ public class BeijingPeople extends ChinaPeople{
     public void beijingOpera(){
         System.out.println("花脸、青衣、花旦和老生");
     }
-
 }

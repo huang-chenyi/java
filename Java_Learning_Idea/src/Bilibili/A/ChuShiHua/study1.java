@@ -13,6 +13,6 @@ public class study1
         System.out.println("First"+'\t'+"Second"+'\t'+"Third");
         System.out.println("trysd"+'\t'+"asdfg"+'\t'+"wasdf");
         System.out.println("1"+'\t'+"2"+'\t'+"3");
-        System.out.println("Test\tBut\tWhy\tYou");
+        System.out.println("Test.Test\tBut\tWhy\tYou");
     }
 }

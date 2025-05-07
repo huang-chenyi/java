@@ -1,5 +1,4 @@
 package School.Experiment5.Test1;
-
 //People.java
 public class People {
     protected double weight,height;
