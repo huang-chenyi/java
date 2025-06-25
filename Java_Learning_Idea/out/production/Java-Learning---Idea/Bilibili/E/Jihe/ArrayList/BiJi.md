@@ -20,7 +20,7 @@
 ---
 
 ```
-**ArrayList<String> list = new ArrayList< String--可以省略 >();**
+ ArrayList<String> list = new ArrayList< String--可以省略 >(); 
 ```
 
 ---
